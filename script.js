@@ -1,5 +1,5 @@
-let nomeHeroi = "4LPha_Br"
-let xpHeroi = 6000
+let nomeHeroi = "4LPha_Br" // Aqui se declara o nome.
+let xpHeroi = 15000 // aqui o nivel de xp do herói .
 let acunhaHeroi
 
 if(xpHeroi <= 1000){
@@ -34,3 +34,6 @@ else{
     acunhaHeroi = "Radiante"
     console.log("O Herói de nome " + nomeHeroi + " está no nivel de " + acunhaHeroi);
 }
+
+// A estrutura que eu escolhi foi o if e else, validando duas condições em cada else if.
+// Não introduzi uma forma da pessoa inserir o nome do Herói e/ou o nivel de xp, visto que não foi ensinado até o momento do curso.
